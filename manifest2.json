@@ -20,6 +20,33 @@
               "resource": {
                 "@id": "https://myrmecoleon.ml/iipsrv/iipsrv.fcgi?IIIF=/img_miku_web_tile.tif/full/full/0/default.jpg", 
                 "@type": "dctypes:Image", 
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://myrmecoleon.ml/iipsrv/iipsrv.fcgi?IIIF=/img_miku_web_tile.tif",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring",
+												"gray"
+											]
+										}
+									]
+								},
                 "height": 1200, 
                 "width": 775
               }, 
