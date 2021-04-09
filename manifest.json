@@ -3,7 +3,6 @@
   "@id": "https://myrmecoleon333.github.io/iiif/manifest.json", 
   "@type": "sc:Manifest", 
   "label": "miku", 
-  "within": "http://iiif.io/api/presentation/2.0/example/fixtures/collection.json", 
   "sequences": [
     {
       "@type": "sc:Sequence", 
