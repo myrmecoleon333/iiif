@@ -8,7 +8,7 @@
       "@type": "sc:Sequence", 
       "canvases": [
         {
-          "@id": "http://iiif.io/api/presentation/2.0/example/fixtures/canvas/1/c1.json", 
+          "@id": "1", 
           "@type": "sc:Canvas", 
           "label": "miku", 
           "height": 1200, 
@@ -23,7 +23,7 @@
                 "height": 1200, 
                 "width": 775
               }, 
-              "on": "http://iiif.io/api/presentation/2.0/example/fixtures/canvas/1/c1.json"
+              "on": "1"
             }
           ]
         }
