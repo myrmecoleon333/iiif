@@ -19,7 +19,7 @@
               "@type": "oa:Annotation", 
               "motivation": "sc:painting", 
               "resource": {
-                "@id": "https://myrmecoleon333.github.io/iiif/img_miku_web.jpg", 
+                "@id": "https://myrmecoleon333.github.io/iiif/miku.jpg", 
                 "@type": "dctypes:Image", 
                 "height": 1200, 
                 "width": 775
